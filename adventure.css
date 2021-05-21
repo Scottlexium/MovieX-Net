@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico')
+
+.xop-section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 6% 2%;
+}
+
+.xop-grid{
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.xop-grid:after {
+  clear:both;
+}
+
+.xop-grid:after, .xop-box:before {
+  content: "";
+  display: table;
+}
+
+.xop-grid li {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.xop-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: 0.3s ease-in-out,transform 0.3s ease-in-out;
+
+}
+
+.xop-box:hover{
+  transform: scale(1.05);
+}
+
+.xop-img-1{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
+  url(https://th.bing.com/th/id/OIP.WxBKs9MMDCQ-uwBdhxUnJQHaJQ?pid=ImgDet&rs=1)
+
+}
+
+.xop-img-2{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
+  url(https://th.bing.com/th/id/R8b98e02ffd887e694ab1c53f733bea97?rik=ViYPQIbe95GdTg&riu=http%3a%2f%2fwww.blackfilm.com%2fread%2fwp-content%2fuploads%2f2015%2f09%2fCreed-Poster.jpg&ehk=jWGujcZl2eDQBozViAYC48T1UO8vXiSUSUmuAlm4VLc%3d&risl=&pid=ImgRaw)
+
+}
+.xop-img-3{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
+  url(https://th.bing.com/th/id/R7bb58cf04f118aec65e45fae0e0643ae?rik=HiD0kf705%2fNjNw&pid=ImgRaw)
+
+}
+.xop-img-4{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
+  url(https://th.bing.com/th/id/OIP.WxBKs9MMDCQ-uwBdhxUnJQHaJQ?pid=ImgDet&rs=1)
+
+}
+
+.xop-info {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.xop-info {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  font-size: 42px;
+  margin: 0 30px;
+  padding: 100px 0 0 0;
+  line-height: 1.5;
+}
+
+.xop-info  {
+  text-decoration: none;
+  font-family: 'Source Sans Pro,' sans-serif;
+  color: #fff;
+}
+
+p, a{
+  text-decoration: none;
+  font-family: 'Source Sans Pro,' sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  margin: 0 3px;
+  padding: 100px 0 0 0;
+  line-height: 2.9;
+}

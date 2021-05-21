@@ -1,0 +1,104 @@
+<header class="showcase">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="typescript" type="text/js" href="script.js">
+			<div class="showcase-top">
+				<img src="Images/Moviex-net-logo.png" alt="logo" />
+				<a href="search bar/index.html" class="btn btn-rounded">Search Movies</a>
+			</div>
+			<div class="showcase-content">
+				<h1>Welcome to Moviex-Net</h1>
+				<p>The home of movies download</p>
+				<a href="search bar/index.html" class="btn btn-xl"
+					>Let the Download begin !!! <i class="fas fa-chevron-right btn-icon"></i
+				></a>
+			</div>
+		</header>
+		<section class="tabs">
+			<div class="container">
+				<div id="tab-1" class="">
+					<i class="fas fa-door-open fa-3x"></i>
+					<p></p>
+				</div>
+				<div id="tab-2" class="tab-item tab-border">
+					<i class="fas fa-tablet-alt fa-3x"></i>
+					<p class="hide-sm">Lets go !!! </p>
+				</div>
+				
+			</div>
+		</section>
+
+		<section class="tab-content">
+			<div class="container">
+				<!-- Tab Content 1 -->
+				<div id="tab-1-content" class="tab-content-item show">
+					<div class="tab-1-content-inner">
+						<div>
+							<p class="text-lg">
+								We have a variety of movies for you to pick from.
+							</p>
+							<a href="#" class="btn btn-lg">Adventure movies</a>
+							<br>
+							<br>
+							<a href="#" class="btn btn-lg">ACTION MOVIES</a>
+							<br>
+							<br>
+							<a href="#" class="btn btn-lg">SCI-FI MOVIES</a>
+							<br>
+							<br>
+							<a href="#" class="btn btn-lg">Drama</a>
+						</div>
+						<img src="https://th.bing.com/th/id/OIP.82Kuq3vM-7b2zY_HqJQhOgHaHa?pid=ImgDet&rs=1" alt="" />
+					</div>
+				</div>
+
+				<!-- Tab Content 2 -->
+			
+
+				<!-- Tab Content 3 -->
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+				
+		</section>
+
+		<footer class="footer">
+			<p>Questions? Call +234-811-863-8617</p>
+			<div class="footer-cols">
+				<ul class="foot">
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Donate Now</a></li>
+					<li><a href="#">Help and Support</a></li>
+					<li><a href="#">Sponsored posts</a></li>
+					<li><a href="#">Moviex Net Originals</a></li>
+				</ul>
+			</div>
+			<br>
+			<div class="reserved"><h2>All Rights Reserved © 2021 | Moviex-Net</h2> <p>Powered by Techzide</p></div>
+
+		</footer>
+
+
+
+
+		
+
+		<script>
+			
+			//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+		</script>
